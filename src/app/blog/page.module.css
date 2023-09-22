@@ -1,0 +1,35 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(300px, 1fr)
+  ); /* Adjust column width as needed */
+  grid-gap: 20px; /* Adjust the gap between items */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  transition: 0.3s;
+  text-align: center;
+}
+.container:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.content {
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 18px;
+  color: #999;
+}
