@@ -36,16 +36,16 @@ To get a copy of this project up and running on your local machine, follow these
 
     cd blog-app
   
-Install the project dependencies:
+  2. Install the project dependencies:
 
 
-    npm install
+          npm install
 
-Start the development server:
+3. Start the development server:
 
-    npm run dev
+       npm run dev
 
-Open your web browser and navigate to http://localhost:3000 to see the app in action.
+4. Open your web browser and navigate to http://localhost:3000 to see the app in action.
 
 Usage
 
